@@ -45,7 +45,7 @@ const Home = () => {
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                 </svg>
               </div>
-              <input onChange={(e)=>{setSearchValue(e.target.value)}} id="search" name="search" className="bg-violet-700 block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-white focus:outline-none focus:text-white focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Search" type="search"/>
+              <input onChange={(e)=>{setSearchValue(e.target.value)}} id="search" name="search" className="bg-violet-700 block w-full border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-white focus:outline-none focus:text-white focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Search" type="search"/>
             </div>
           </div>
         </div>
